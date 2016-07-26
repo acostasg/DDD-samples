@@ -1,0 +1,3 @@
+placement_homepage:
+    path:     /placements
+    defaults: { _controller: PlacementBundle:Default:index }
