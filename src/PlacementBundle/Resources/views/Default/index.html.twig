@@ -4,22 +4,54 @@
     <title>Placements problem</title>
 </head>
 <body>
-<h1>The Placements problem</h1>
+<div id="wrapper">
+    <div id="container">
+        <div id="welcome">
+            <h1>The Placements problem</h1>
+        </div>
 
-The names of those students whose best friends got offered a higher
-salary than them. Names must be ordered by the salary amount offered to the best friends.
+        <div>
+            <p>
+            The names of those students whose best friends got offered a higher
+            salary than them. Names must be ordered by the salary amount offered to the best friends:
 
-<ul id="navigation">
-    {% for student in studentCollection %}
-        <li>Student name: {{ student.name }}</a></li>
-    {% endfor %}
-</ul>
+            <ul id="navigation" style="font-weight: bold;">
+                {% for student in studentCollection %}
+                    <li>{{ student.name }}</a></li>
+                {% endfor %}
+            </ul>
+            </p>
+        </div>
 
-<div id="next">
-    <a href="{{ path('homepage', {'page': 'home'}) }}">Home</a>
-    <a href="{{ path('placement_homepage', {'page': 'placements'}) }}">The Placements problem</a>
-    <a href="{{ path('coffe_shop_homepage', {'page': 'coffeShop'}) }}">The coffee shop problem</a>
+        <div id="next">
+            <a href="{{ path('homepage', {'page': 'home'}) }}">Home</a>
+            <a href="{{ path('placement_homepage', {'page': 'placements'}) }}">The Placements problem</a>
+            <a href="{{ path('coffe_shop_homepage', {'page': 'coffeShop'}) }}">The coffee shop problem</a>
+        </div>
+
+    </div>
 </div>
-
 </body>
+<style>
+    body { background: #F5F5F5; font: 18px/1.5 sans-serif; }
+    h1, h2 { line-height: 1.2; margin: 0 0 .5em; }
+    h1 { font-size: 36px; }
+    h2 { font-size: 21px; margin-bottom: 1em; }
+    p { margin: 0 0 1em 0; }
+    a { color: #0000F0; }
+    a:hover { text-decoration: none; }
+    code { background: #F5F5F5; max-width: 100px; padding: 2px 6px; word-wrap: break-word; }
+    #wrapper { background: #FFF; margin: 1em auto; max-width: 800px; width: 95%; }
+    #container { padding: 2em; }
+    #welcome, #status { margin-bottom: 2em; }
+    #welcome h1 span { display: block; font-size: 75%; }
+
+    @media (min-width: 768px) {
+        #wrapper { width: 80%; margin: 2em auto; }
+        #status a, #next a { display: block; }
+
+        @-webkit-keyframes fade-in { 0% { opacity: 0; } 100% { opacity: 1; } }
+        @keyframes fade-in { 0% { opacity: 0; } 100% { opacity: 1; } }
+   }
+</style>
 </html>

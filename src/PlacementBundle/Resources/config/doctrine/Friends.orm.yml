@@ -1,0 +1,13 @@
+PlacementBundle\Entity\Friends:
+    type: entity
+    table: Friends
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+      friend_id:
+        type: integer
+    lifecycleCallbacks: {  }

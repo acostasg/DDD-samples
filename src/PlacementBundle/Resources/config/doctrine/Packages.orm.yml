@@ -1,0 +1,13 @@
+PlacementBundle\Entity\Packages:
+    type: entity
+    table: Packages
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+      salary:
+        type: float
+    lifecycleCallbacks: {  }
