@@ -1,4 +1,15 @@
 services:
-#    placement.example:
-#        class: PlacementBundle\Example
-#        arguments: ["@service_id", "plain_value", %parameter%]
+    infrastructure.persistence.repository:
+        class: PlacementBundle\Infrastructure\Persistence\Doctrine\DoctrineStudentRepository
+        factory: ["@doctrine", getRepository]
+        public: false
+        arguments: ["PlacementBundle:Students"]
+
+    domain.student.service:
+        class: PlacementBundle\Domain\Student\StudentService
+        public: false
+        arguments: ["@infrastructure.persistence.repository"]
+
+    application.studentBybestFriendsHigherSalary_usecase:
+        class: PlacementBundle\Application\GetAvailableStudentsByBestFriendsHigherSalaryUseCase
+        arguments: ["@domain.student.service"]

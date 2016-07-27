@@ -1,0 +1,14 @@
+PlacementBundle\Entity\Students:
+    type: entity
+    repositoryClass:  PlacementBundle\Infrastructure\Persistence\Doctrine\DoctrineStudentRepository
+    table: students
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+      name:
+        type: text
+    lifecycleCallbacks: {  }

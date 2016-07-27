@@ -1,1 +1,25 @@
-PlacementBundle default controller
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placements problem</title>
+</head>
+<body>
+<h1>The Placements problem</h1>
+
+The names of those students whose best friends got offered a higher
+salary than them. Names must be ordered by the salary amount offered to the best friends.
+
+<ul id="navigation">
+    {% for student in studentCollection %}
+        <li>Student name: {{ student.name }}</a></li>
+    {% endfor %}
+</ul>
+
+<div id="next">
+    <a href="{{ path('homepage', {'page': 'home'}) }}">Home</a>
+    <a href="{{ path('placement_homepage', {'page': 'placements'}) }}">The Placements problem</a>
+    <a href="{{ path('coffe_shop_homepage', {'page': 'coffeShop'}) }}">The coffee shop problem</a>
+</div>
+
+</body>
+</html>
