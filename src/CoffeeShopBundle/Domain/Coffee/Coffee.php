@@ -13,4 +13,9 @@ interface Coffee
      * @return sting
      */
     public function getCurrency();
+
+    /**
+     * @return string
+     */
+    public function getName();
 }

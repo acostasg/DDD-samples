@@ -1,5 +1,5 @@
 services:
-    infrastructure.persistence.repository:
+    infrastructure.persistence.student.repository:
         class: PlacementBundle\Infrastructure\Persistence\Doctrine\DoctrineStudentRepository
         factory: ["@doctrine", getRepository]
         public: false
@@ -8,7 +8,7 @@ services:
     domain.student.service:
         class: PlacementBundle\Domain\Student\StudentService
         public: false
-        arguments: ["@infrastructure.persistence.repository"]
+        arguments: ["@infrastructure.persistence.student.repository"]
 
     application.studentBybestFriendsHigherSalary_usecase:
         class: PlacementBundle\Application\GetAvailableStudentsByBestFriendsHigherSalaryUseCase

@@ -27,4 +27,12 @@ class CoffeeDecorator implements Coffee
     {
         return $this->coffee->getCurrency();
     }
+
+    /**
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->coffee->getName().' with '.substr(strrchr(get_class($this), "\\"), 1);
+    }
 }

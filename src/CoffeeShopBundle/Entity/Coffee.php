@@ -3,8 +3,9 @@
 namespace CoffeeShopBundle\Entity;
 
 use CoffeeShopBundle\Domain\Coffee\Currency;
+use CoffeeShopBundle\Domain\Coffee\Coffee as iCoffee;
 
-class Coffee implements \CoffeeShopBundle\Domain\Coffee\Coffee
+class Coffee implements iCoffee
 {
     /**
      * @var float
@@ -35,5 +36,13 @@ class Coffee implements \CoffeeShopBundle\Domain\Coffee\Coffee
     public function getCurrency()
     {
         return (string) $this->currency;
+    }
+
+    /**
+     * @return string
+     */
+    public function getName()
+    {
+        return substr(strrchr(get_class($this), "\\"), 1);
     }
 }

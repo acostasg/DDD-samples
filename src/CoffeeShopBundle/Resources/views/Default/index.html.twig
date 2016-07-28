@@ -17,9 +17,9 @@
                 the best possible coffee experience. This experience is composed of a variety of coffees and
                 toppings.
 
-            <ul id="navigation" style="font-weight: bold;">
+            <ul id="navigation">
                 {% for coffee in coffeeCollection %}
-                    <li>{{ student.getCost() }} - {{ student.getCurrency() }}</a></li>
+                    <li> <spam  style="font-weight: bold;">{{ coffee.name }}</spam>, cost <spam  style="font-weight: bold;">{{ coffee.cost }} {{ coffee.currency }}</spam></li>
                 {% endfor %}
             </ul>
             </p>
