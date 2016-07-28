@@ -1,8 +1,7 @@
 <?php
 
-namespace CoffeShopBundle\Domain\Coffee;
+namespace CoffeeShopBundle\Domain\Coffee;
 
-use CoffeeShopBundle\Domain\Coffee\Currency;
 
 class CurrencyTest extends \PHPUnit_Framework_TestCase
 {

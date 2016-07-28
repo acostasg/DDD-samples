@@ -1,18 +1,16 @@
 <?php
 
-namespace CoffeShopBundle\Entity;
+namespace CoffeeShopBundle\Entity;
 
 use CoffeeShopBundle\Domain\Coffee\Currency;
-use CoffeeShopBundle\Entity\CaramelTopping;
-use CoffeeShopBundle\Entity\Coffee;
 
-class CreamToppingTest extends \PHPUnit_Framework_TestCase
+class CaramelToppingTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
      * @test
      */
-    public function checkCreamToppingCost()
+    public function checkCaramelToppingCost()
     {
         $coffeeTest = new CaramelTopping(new Coffee());
         $this->assertEquals(0.5, $coffeeTest->getCost());
@@ -21,7 +19,7 @@ class CreamToppingTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function checkCreamToppingCurrencyEUR()
+    public function checkCaramelToppingCurrencyEUR()
     {
         $coffeeTest = new CaramelTopping(new Coffee());
         $this->assertEquals(Currency::EURO, $coffeeTest->getCurrency());
@@ -30,7 +28,7 @@ class CreamToppingTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function checkCreamToppingCurrencyDOLLAR()
+    public function checkCaramelToppingCurrencyDOLLAR()
     {
         $coffeeTest = new CaramelTopping(new Coffee(Currency::DOLLAR));
         $this->assertEquals(Currency::DOLLAR, $coffeeTest->getCurrency());

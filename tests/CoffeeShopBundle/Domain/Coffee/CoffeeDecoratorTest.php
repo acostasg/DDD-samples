@@ -1,10 +1,8 @@
 <?php
 
 
-namespace CoffeShopBundle\Domain\Coffee;
+namespace CoffeeShopBundle\Domain\Coffee;
 
-use CoffeeShopBundle\Domain\Coffee\CoffeeDecorator;
-use CoffeeShopBundle\Domain\Coffee\Currency;
 use CoffeeShopBundle\Entity\Coffee;
 
 class CoffeeDecoratorTest extends \PHPUnit_Framework_TestCase

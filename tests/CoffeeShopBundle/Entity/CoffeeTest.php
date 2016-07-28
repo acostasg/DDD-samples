@@ -1,9 +1,8 @@
 <?php
 
-namespace CoffeShopBundle\Entity;
+namespace CoffeeShopBundle\Entity;
 
 use CoffeeShopBundle\Domain\Coffee\Currency;
-use CoffeeShopBundle\Entity\Coffee;
 
 class CoffeeTest extends \PHPUnit_Framework_TestCase
 {

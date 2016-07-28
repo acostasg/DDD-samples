@@ -1,12 +1,10 @@
 <?php
 
-namespace CoffeShopBundle\Entity;
+namespace CoffeeShopBundle\Entity;
 
 use CoffeeShopBundle\Domain\Coffee\Currency;
-use CoffeeShopBundle\Entity\Coffee;
-use CoffeeShopBundle\Entity\GroundCinnamonTopping;
 
-class GroundCinnamonToppingTest extends \PHPUnit_Framework_TestCase
+class CreamToppingTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -14,8 +12,8 @@ class GroundCinnamonToppingTest extends \PHPUnit_Framework_TestCase
      */
     public function checkCreamToppingCost()
     {
-        $coffeeTest = new GroundCinnamonTopping(new Coffee());
-        $this->assertEquals(0.75, $coffeeTest->getCost());
+        $coffeeTest = new CaramelTopping(new Coffee());
+        $this->assertEquals(0.5, $coffeeTest->getCost());
     }
 
     /**
@@ -23,7 +21,7 @@ class GroundCinnamonToppingTest extends \PHPUnit_Framework_TestCase
      */
     public function checkCreamToppingCurrencyEUR()
     {
-        $coffeeTest = new GroundCinnamonTopping(new Coffee());
+        $coffeeTest = new CaramelTopping(new Coffee());
         $this->assertEquals(Currency::EURO, $coffeeTest->getCurrency());
     }
 
@@ -32,7 +30,7 @@ class GroundCinnamonToppingTest extends \PHPUnit_Framework_TestCase
      */
     public function checkCreamToppingCurrencyDOLLAR()
     {
-        $coffeeTest = new GroundCinnamonTopping(new Coffee(Currency::DOLLAR));
+        $coffeeTest = new CaramelTopping(new Coffee(Currency::DOLLAR));
         $this->assertEquals(Currency::DOLLAR, $coffeeTest->getCurrency());
     }
 }
