@@ -8,7 +8,6 @@
 
 namespace CoffeeShopBundle\Entity;
 
-
 use CoffeeShopBundle\Domain\Coffee\CoffeeDecorator;
 
 class CreamTopping extends CoffeeDecorator

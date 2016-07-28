@@ -32,9 +32,8 @@ class Currency
      */
     private $currencyCode;
 
-
     /**
-     * @param  string $currencyCode
+     * @param  string                   $currencyCode
      * @throws InvalidArgumentException
      */
     public function __construct($currencyCode)
@@ -112,5 +111,4 @@ class Currency
     {
         return $this->currencyCode;
     }
-
 }

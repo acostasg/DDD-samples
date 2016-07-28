@@ -2,7 +2,6 @@
 
 namespace CoffeeShopBundle\Application;
 
-
 use CoffeeShopBundle\Domain\Coffee\CoffeeService;
 
 class GetAvailableCoffeesMenuUseCase
@@ -15,7 +14,7 @@ class GetAvailableCoffeesMenuUseCase
     /**
      * @param CoffeeService $coffeeService
      */
-    public function __construct( CoffeeService $coffeeService)
+    public function __construct(CoffeeService $coffeeService)
     {
         $this->coffeeService = $coffeeService;
     }

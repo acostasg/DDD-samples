@@ -2,7 +2,6 @@
 
 namespace CoffeeShopBundle\Domain\Coffee;
 
-
 class CoffeeService
 {
     /**
@@ -15,8 +14,8 @@ class CoffeeService
         $this->coffeeRepository = $coffeeRepository;
     }
 
-    public function getAvailableCoffeeAndTopping(){
+    public function getAvailableCoffeeAndTopping()
+    {
         return $this->coffeeRepository->getAvailableCoffee();
     }
-
 }

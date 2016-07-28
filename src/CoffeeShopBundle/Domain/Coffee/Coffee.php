@@ -2,7 +2,6 @@
 
 namespace CoffeeShopBundle\Domain\Coffee;
 
-
 interface Coffee
 {
     /**

@@ -2,7 +2,6 @@
 
 namespace CoffeeShopBundle\Entity;
 
-
 use CoffeeShopBundle\Domain\Coffee\Currency;
 
 class Coffee implements \CoffeeShopBundle\Domain\Coffee\Coffee
@@ -35,7 +34,6 @@ class Coffee implements \CoffeeShopBundle\Domain\Coffee\Coffee
      */
     public function getCurrency()
     {
-        return (string)$this->currency;
+        return (string) $this->currency;
     }
-
 }

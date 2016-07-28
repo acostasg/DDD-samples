@@ -14,7 +14,8 @@ class DefaultController extends Controller
             $this->get('application.coffees_menu_use_case');
 
         $coffeeCollection = $coffeesMenuUseCase->execute();
-        return $this->render('CoffeShopBundle:Default:index.html.twig',[
+
+        return $this->render('CoffeShopBundle:Default:index.html.twig', [
             'coffeeCollection' => $coffeeCollection
         ]);
     }
