@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f891b956-facf-4a5f-add2-e565e715e3bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Application/GetAvailableCoffeesUseCaseTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeeServiceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeeDecoratorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CurrencyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CaramelToppingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CoffeeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CreamToppingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/EspressoCoffeeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/GroundCinnamonToppingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/LatteCoffeeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/WhiteMoccaCoffeeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/enAlquilerTecnicalTest.iml" afterPath="$PROJECT_DIR$/.idea/enAlquilerTecnicalTest.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/EspressoCoffee.php" afterPath="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/EspressoCoffee.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/LatteCoffee.php" afterPath="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/LatteCoffee.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/WhiteMoccaCoffee.php" afterPath="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/WhiteMoccaCoffee.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/CoffeShopBundle/Application/GetAvailableCoffeesUseCaseTest.php" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Application/GetAvailableCoffeesUseCaseTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeeServiceTest.php" afterPath="$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeeServiceTest.php" />
     </list>
     <ignored path="enAlquilerTecnicalTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +29,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -33,117 +45,130 @@
     <favorites_list name="enAlquilerTecnicalTest" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Coffee.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/Coffee.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.4838705">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoffeeDecorator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/CoffeeDecorator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.387097">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroundCinnamonTopping.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/GroundCinnamonTopping.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.387097">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LatteCoffee.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/LatteCoffee.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.677419">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EspressoCoffee.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/EspressoCoffee.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.677419">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Coffee.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/Coffee.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.580645">
-              <caret line="45" column="57" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="57" />
-              <folding>
-                <element signature="e#43#87#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Resources/views/Default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.387097">
-              <caret line="21" column="142" selection-start-line="21" selection-start-column="142" selection-end-line="21" selection-end-column="142" />
-              <folding>
-                <element signature="n#style#0;n#spam#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#spam#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetAvailableCoffeesUseCaseTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Application/GetAvailableCoffeesUseCaseTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.709677">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="35" selection-end-column="9" />
-              <folding>
-                <element signature="e#53#117#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/PlacementBundle/Application/GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.354838">
-              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="36" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoffeeServiceTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeeServiceTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7378882">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-              <folding>
-                <element signature="e#56#108#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.661698">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="WhiteMoccaCoffeeTest.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Entity/WhiteMoccaCoffeeTest.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InMemoryCoffeeRepository.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Infrastructure/Persistence/InMemory/InMemoryCoffeeRepository.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="22" column="50" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="62" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GroundCinnamonTopping.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/GroundCinnamonTopping.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="WhiteMoccaCoffee.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/WhiteMoccaCoffee.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="209">
+                  <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EspressoCoffee.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/EspressoCoffee.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Coffee.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/Coffee.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="267">
+                  <caret line="21" column="19" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="58" />
+                  <folding>
+                    <element signature="e#43#87#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CaramelTopping.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/CaramelTopping.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="247">
+                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CreamTopping.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/CreamTopping.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LatteCoffee.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/LatteCoffee.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoffeeDecoratorTest.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeeDecoratorTest.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="20" column="0" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="61" />
+                  <folding>
+                    <element signature="e#50#101#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="CoffeeDecorator.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/CoffeeDecorator.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -154,17 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/PlacementBundle/Entity/Friends.php" />
-        <option value="$PROJECT_DIR$/src/PlacementBundle/Entity/Packages.php" />
-        <option value="$PROJECT_DIR$/src/PlacementBundle/Application/GetAvailableStudentsByBestFriendsHigherSalaryUseCase.php" />
-        <option value="$PROJECT_DIR$/src/PlacementBundle/Domain/Student/StudentRepository.php" />
-        <option value="$PROJECT_DIR$/src/PlacementBundle/Domain/Student/StudentService.php" />
-        <option value="$PROJECT_DIR$/src/PlacementBundle/Entity/Students.php" />
-        <option value="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" />
-        <option value="$PROJECT_DIR$/vendor/symfony/symfony/.phpunit/phpunit-5.1/README.md" />
-        <option value="$PROJECT_DIR$/src/PlacementBundle/Infrastructure/Persistence/InMemory/InMemoryStudentRepository.php" />
-        <option value="$PROJECT_DIR$/tests/PlacementBundle/Application/GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest.php" />
-        <option value="$PROJECT_DIR$/tests/PlacementBundle/Domain/Student/StudentServiceTest.php" />
         <option value="$PROJECT_DIR$/src/CoffeShopBundle/Domain/Coffe/Coffe.php" />
         <option value="$PROJECT_DIR$/src/CoffeShopBundle/Domain/Coffe/CoffeDecorator.php" />
         <option value="$PROJECT_DIR$/src/CoffeShopBundle/Domain/Coffe/CoffeeDecorator.php" />
@@ -196,32 +210,44 @@
         <option value="$PROJECT_DIR$/src/PlacementBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/Currency.php" />
-        <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/EspressoCoffee.php" />
-        <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/LatteCoffee.php" />
-        <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/WhiteMoccaCoffee.php" />
         <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/Coffee.php" />
         <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/Coffee.php" />
         <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/CoffeeDecorator.php" />
         <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Application/GetAvailableCoffeesUseCaseTest.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeDecoratorTest.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeeDecoratorTest.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CurrencyTest.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CaremelToppingTest.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CaramelToppingTest.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/EspressoCoffeeTest.php" />
+        <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/EspressoCoffee.php" />
+        <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/LatteCoffee.php" />
+        <option value="$PROJECT_DIR$/src/CoffeeShopBundle/Entity/WhiteMoccaCoffee.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CreamToppingTest.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/WhiteMoccaCoffeeTest.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/LatteCoffeeTest.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/GroundCinnamonToppingTest.php" />
+        <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CoffeeTest.php" />
         <option value="$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeeServiceTest.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="x" value="-279" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -248,6 +274,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files" />
+        <subPane subId="Tests" />
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,7 +295,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -273,23 +305,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlacementBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Student" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -299,67 +319,45 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlacementBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlacementBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CoffeShopBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enAlquilerTecnicalTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enAlquilerTecnicalTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoffeShopBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Coffee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -369,19 +367,15 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CoffeShopBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -391,47 +385,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeShopBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -441,15 +399,15 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CoffeeShopBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -459,54 +417,30 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CoffeeShopBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Infrastructure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Coffee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="Persistence" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="enAlquilerTecnicalTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShopBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="InMemory" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files" />
-        <subPane subId="Tests" />
       </pane>
     </panes>
   </component>
@@ -514,48 +448,51 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml.dist" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.phpunit" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\src\CoffeeShopBundle\Infrastructure\Persistence" />
-      <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\app" />
-      <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\src\PlacementBundle" />
-      <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\data" />
-      <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\src\PlacementBundle\Domain\Entity" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/CoffeShopBundle/Entity" />
       <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\tests\CoffeShopBundle\Domain\Coffee" />
       <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\tests\CoffeShopBundle\Application" />
       <recent name="$PROJECT_DIR$/src/CoffeShopBundle/Infrastructure" />
       <recent name="$PROJECT_DIR$/tests/PlacementBundle/Domain/Student" />
-      <recent name="$PROJECT_DIR$/src/PlacementBundle/Infrastructure/Persistence/InMemory" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/CoffeShopBundle" />
+      <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\src\CoffeeShopBundle\Infrastructure\Persistence" />
+      <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\app" />
+      <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\src\PlacementBundle" />
+      <recent name="C:\xampp\htdocs\enAlquilerTecnicalTest\data" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.GetAvailableCoffeesUseCaseTest">
-    <configuration default="false" name="DefaultControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="CoffeShopBundle\Tests\Controller\DefaultControllerTest" file="$PROJECT_DIR$/tests/CoffeShopBundle/Controller/DefaultControllerTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.GroundCinnamonToppingTest">
+    <configuration default="false" name="EspressoCoffeeTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CoffeShopBundle\Entity\EspressoCoffeeTest" file="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/EspressoCoffeeTest.php" scope="Class" />
       <method />
     </configuration>
-    <configuration default="false" name="DefaultControllerTest (2)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="PlacementBundle\Tests\Controller\DefaultControllerTest" file="$PROJECT_DIR$/tests/PlacementBundle/Controller/DefaultControllerTest.php" scope="Class" />
+    <configuration default="false" name="LatteCoffeeTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CoffeShopBundle\Entity\LatteCoffeeTest" file="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/LatteCoffeeTest.php" scope="Class" />
       <method />
     </configuration>
-    <configuration default="false" name="StudentServiceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="tests\PlacementBundle\Domain\Student\StudentServiceTest" file="$PROJECT_DIR$/tests/PlacementBundle/Domain/Student/StudentServiceTest.php" scope="Class" />
+    <configuration default="false" name="WhiteMoccaCoffeeTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CoffeShopBundle\Entity\WhiteMoccaCoffeeTest" file="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/WhiteMoccaCoffeeTest.php" scope="Class" />
       <method />
     </configuration>
-    <configuration default="false" name="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="tests\PlacementBundle\Application\GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest" file="$PROJECT_DIR$/tests/PlacementBundle/Application/GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest.php" scope="Class" />
+    <configuration default="false" name="CreamToppingTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CoffeShopBundle\Entity\CreamToppingTest" file="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CreamToppingTest.php" scope="Class" />
       <method />
     </configuration>
-    <configuration default="false" name="GetAvailableCoffeesUseCaseTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="tests\PlacementBundle\Application\GetAvailableCoffeesUseCaseTest" file="$PROJECT_DIR$/tests/CoffeShopBundle/Application/GetAvailableCoffeesUseCaseTest.php" scope="Class" />
+    <configuration default="false" name="GroundCinnamonToppingTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CoffeShopBundle\Entity\GroundCinnamonToppingTest" file="$PROJECT_DIR$/tests/CoffeShopBundle/Entity/GroundCinnamonToppingTest.php" scope="Class" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -570,6 +507,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -580,27 +518,43 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.DefaultControllerTest" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.DefaultControllerTest (2)" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.StudentServiceTest" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.GetAvailableCoffeesUseCaseTest" />
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.EspressoCoffeeTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.LatteCoffeeTest" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.WhiteMoccaCoffeeTest" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.CreamToppingTest" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.GroundCinnamonToppingTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.GetAvailableCoffeesUseCaseTest" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.StudentServiceTest" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.DefaultControllerTest (2)" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.DefaultControllerTest" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.GroundCinnamonToppingTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.CreamToppingTest" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.WhiteMoccaCoffeeTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.LatteCoffeeTest" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.EspressoCoffeeTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -609,71 +563,74 @@
       <changelist id="f891b956-facf-4a5f-add2-e565e715e3bf" name="Default" comment="" />
       <created>1469570548115</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1469570548115</updated>
       <workItem from="1469722255895" duration="8554000" />
+      <workItem from="1469743186532" duration="2010000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DefaultControllerTest - 2016.07.28 at 20h 04m 36s.xml">
-      <configuration name="DefaultControllerTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="CreamToppingTest - 2016.07.29 at 00h 32m 15s.xml">
+      <configuration name="CreamToppingTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DefaultControllerTest_(1) - 2016.07.28 at 18h 33m 17s.xml">
-      <configuration name="DefaultControllerTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="EspressoCoffeeTest - 2016.07.29 at 00h 27m 42s.xml">
+      <configuration name="EspressoCoffeeTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DefaultControllerTest_(1) - 2016.07.28 at 20h 04m 28s.xml">
-      <configuration name="DefaultControllerTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="EspressoCoffeeTest - 2016.07.29 at 00h 28m 02s.xml">
+      <configuration name="EspressoCoffeeTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="DefaultControllerTest_(2) - 2016.07.28 at 20h 04m 41s.xml">
-      <configuration name="DefaultControllerTest (2)" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="GroundCinnamonToppingTest - 2016.07.29 at 00h 33m 12s.xml">
+      <configuration name="GroundCinnamonToppingTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest - 2016.07.28 at 20h 20m 15s.xml">
-      <configuration name="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="GroundCinnamonToppingTest - 2016.07.29 at 00h 33m 21s.xml">
+      <configuration name="GroundCinnamonToppingTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest - 2016.07.28 at 20h 20m 57s.xml">
-      <configuration name="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LatteCoffeeTest - 2016.07.29 at 00h 29m 19s.xml">
+      <configuration name="LatteCoffeeTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest - 2016.07.28 at 20h 21m 51s.xml">
-      <configuration name="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="LatteCoffeeTest - 2016.07.29 at 00h 29m 45s.xml">
+      <configuration name="LatteCoffeeTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest - 2016.07.28 at 20h 21m 57s.xml">
-      <configuration name="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="WhiteMoccaCoffeeTest - 2016.07.29 at 00h 30m 53s.xml">
+      <configuration name="WhiteMoccaCoffeeTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest - 2016.07.28 at 22h 10m 16s.xml">
-      <configuration name="GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="WhiteMoccaCoffeeTest - 2016.07.29 at 00h 31m 02s.xml">
+      <configuration name="WhiteMoccaCoffeeTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="StudentServiceTest - 2016.07.28 at 20h 25m 56s.xml">
-      <configuration name="StudentServiceTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="WhiteMoccaCoffeeTest - 2016.07.29 at 00h 31m 32s.xml">
+      <configuration name="WhiteMoccaCoffeeTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8554000" />
+    <option name="totallyTimeSpent" value="10564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="true" />
+    <frame x="-279" y="-1057" width="1920" height="1057" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24383709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19224556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20660277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17838125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19224556" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31544715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -692,102 +649,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/PlacementBundle/Application/GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="e#53#138#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9ef1ca93-6eaa-4867-aeee-f0899caa9875/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0f641e5c-dd25-49ac-aae0-c059325231b4/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Resources/config/doctrine/Packages.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Resources/config/doctrine/Friends.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Resources/config/doctrine/Students.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="8" selection-start-line="29" selection-start-column="0" selection-end-line="54" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
+          <first_editor relative-caret-position="0">
             <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="18" selection-end-column="39" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Domain/Student/StudentRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Domain/Student/StudentService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Entity/Friends.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
@@ -795,7 +693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Entity/Packages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
@@ -803,14 +701,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Entity/Students.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="11" column="7" selection-start-line="9" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Infrastructure/Persistence/Doctrine/DoctrineStudentRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="e#71#105#0#PHP" expanded="false" />
@@ -820,14 +718,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
@@ -835,50 +733,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/PlacementBundle/Controller/DefaultControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Infrastructure/Persistence/InMemory/InMemoryStudentRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/PlacementBundle/Domain/Student/StudentServiceTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="28" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Application/GetAvailableStudentsByBestFriendsHigherSalaryUseCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="15" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="34" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
           <folding />
         </state>
@@ -886,39 +777,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Application/GetAvailableCoffeesMenuUseCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/CaramelTopping.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/CoffeeRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="7" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/CoffeeService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="e#47#111#0#PHP" expanded="false" />
@@ -926,17 +793,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Controller/DefaultControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
@@ -944,7 +803,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.774194">
+        <state relative-caret-position="0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
@@ -952,156 +811,270 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/CoffeShopBundle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
+        <state relative-caret-position="0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Infrastructure/Persistence/InMemory/InMemoryCoffeeRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4193548">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="62" />
-          <folding>
-            <element signature="e#72#114#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PlacementBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/Currency.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7096774">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/CreamTopping.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2580647">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/WhiteMoccaCoffee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.677419">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/LatteCoffee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.677419">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/GroundCinnamonTopping.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/EspressoCoffee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.677419">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/Coffee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.4838705">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34534162">
+        <state relative-caret-position="0">
           <caret line="340" column="9" selection-start-line="340" selection-start-column="9" selection-end-line="340" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/Coffee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.580645">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="57" />
-          <folding>
-            <element signature="e#43#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/CoffeeDecorator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.387097">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
+        <state relative-caret-position="399">
           <caret line="21" column="142" selection-start-line="21" selection-start-column="142" selection-end-line="21" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/PlacementBundle/Domain/Student/StudentServiceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="7" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#spam#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#spam#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#56#109#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/PlacementBundle/Application/GetAvailableStudentsByBestFriendsHigherSalaryUseCaseTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.354838">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="164">
+          <caret line="35" column="8" selection-start-line="28" selection-start-column="2" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Controller/DefaultControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Application/GetAvailableCoffeesUseCaseTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.709677">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="126">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="e#53#117#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/Coffee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/CoffeeRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/CoffeeService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/Currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Domain/Coffee/CoffeeDecorator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Entity/LatteCoffeeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Entity/GroundCinnamonToppingTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Entity/EspressoCoffeeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#42#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CreamToppingTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CoffeeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Entity/CaramelToppingTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#42#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeeServiceTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7378882">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="418">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding>
             <element signature="e#56#108#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CurrencyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Domain/Coffee/CoffeeDecoratorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="61" />
+          <folding>
+            <element signature="e#50#101#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CoffeShopBundle/Entity/WhiteMoccaCoffeeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Infrastructure/Persistence/InMemory/InMemoryCoffeeRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="50" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/WhiteMoccaCoffee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/LatteCoffee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/GroundCinnamonTopping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/EspressoCoffee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/CreamTopping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/Coffee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="21" column="19" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="e#43#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoffeeShopBundle/Entity/CaramelTopping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -24,7 +24,7 @@ class GetAvailableCoffeesUseCaseTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function GetAvailableParticipantCollection()
+    public function GetAvailableMenuUseCaseCollection()
     {
         $useCase = new GetAvailableCoffeesMenuUseCase(
             $this->coffeeService
@@ -32,7 +32,7 @@ class GetAvailableCoffeesUseCaseTest extends \PHPUnit_Framework_TestCase
         $arrayCollection = $useCase->execute();
 
         foreach ($arrayCollection as $result) {
-            $this->assertInstanceOf('\CoffeeShopBundle\Domain\Coffee\Coffee',$result);
+            $this->assertInstanceOf('\CoffeeShopBundle\Domain\Coffee\Coffee', $result);
         }
     }
 }

@@ -5,9 +5,6 @@ namespace tests\PlacementBundle\Domain\Student;
 use CoffeeShopBundle\Domain\Coffee\CoffeeRepository;
 use CoffeeShopBundle\Domain\Coffee\CoffeeService;
 use CoffeeShopBundle\Infrastructure\Persistence\InMemory\InMemoryCoffeeRepository;
-use PlacementBundle\Domain\Student\StudentRepository;
-use PlacementBundle\Domain\Student\StudentService;
-use PlacementBundle\Infrastructure\Persistence\InMemory\InMemoryStudentRepository;
 
 class CoffeeServiceTest extends \PHPUnit_Framework_TestCase
 {
@@ -24,7 +21,7 @@ class CoffeeServiceTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function getStudentsByBestFriendsHigherSalary()
+    public function getCoffeeMenuCollectionService()
     {
         $studentService = new CoffeeService(
             $this->coffeeRepository
@@ -32,7 +29,8 @@ class CoffeeServiceTest extends \PHPUnit_Framework_TestCase
         $arrayCollection = $studentService->getAvailableCoffeeAndTopping();
         
         foreach ($arrayCollection as $result) {
-            $this->assertInstanceOf('\CoffeeShopBundle\Domain\Coffee\Coffee',$result);
+            $this->assertInstanceOf('\CoffeeShopBundle\Domain\Coffee\Coffee',
+                $result);
         }
     }
 }
