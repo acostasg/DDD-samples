@@ -2,7 +2,6 @@
 
 namespace PlacementBundle\Infrastructure\Persistence\Doctrine;
 
-
 use Doctrine\ORM\EntityRepository;
 use PlacementBundle\Domain\Student\StudentRepository;
 

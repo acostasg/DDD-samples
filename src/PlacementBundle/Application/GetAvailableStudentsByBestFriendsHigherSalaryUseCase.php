@@ -24,5 +24,4 @@ class GetAvailableStudentsByBestFriendsHigherSalaryUseCase
     {
         return $this->studentsService->getStudentsByBestFriendsHigherSalary();
     }
-
 }

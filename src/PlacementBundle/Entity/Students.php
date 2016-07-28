@@ -17,7 +17,6 @@ class Students
      */
     private $name;
 
-
     /**
      * Get id
      *
@@ -35,6 +34,4 @@ class Students
     {
         return $this->name;
     }
-
 }
-

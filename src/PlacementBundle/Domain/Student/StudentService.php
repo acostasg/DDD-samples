@@ -22,5 +22,4 @@ class StudentService
     {
         return $this->studentRepository->getStudentsByBestFriendsHigherSalary();
     }
-
 }

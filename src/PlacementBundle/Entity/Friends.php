@@ -17,7 +17,6 @@ class Friends
      */
     private $friend_id;
 
-
     /**
      * Get id
      *
@@ -35,6 +34,4 @@ class Friends
     {
         return $this->friend_id;
     }
-
 }
-

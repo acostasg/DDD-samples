@@ -2,7 +2,6 @@
 
 namespace PlacementBundle\Entity;
 
-
 class Packages
 {
     /**
@@ -30,5 +29,4 @@ class Packages
     {
         return $this->salary;
     }
-
 }
