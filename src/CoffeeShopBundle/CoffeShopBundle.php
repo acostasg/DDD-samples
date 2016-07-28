@@ -1,6 +1,6 @@
 <?php
 
-namespace CoffeShopBundle;
+namespace CoffeeShopBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

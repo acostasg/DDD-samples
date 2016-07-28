@@ -1,0 +1,12 @@
+services:
+    infrastructure.persistence.repository:
+        class: CoffeeShopBundle\Infrastructure\Persistence\InMemory\InMemoryCoffeeRepository;
+
+    domain.coffee.service:
+        class: CoffeeShopBundle\Domain\Student\CoffeeService
+        public: false
+        arguments: ["@infrastructure.persistence.repository"]
+
+    application.coffees_menu_use_case:
+        class: CoffeeShopBundle\Application\GetAvailableCoffeesMenuUseCase
+        arguments: ["@domain.coffee.service"]
