@@ -13,6 +13,11 @@ Installing Dependencies
 composer install
 ```
 
+Urls:
+http://localhost/enAlquilerTecnicalTest/web/
+http://localhost/enAlquilerTecnicalTest/web/coffesshop
+http://localhost/enAlquilerTecnicalTest/web/placements
+
 #DDD
 
 Used Domain-driven design for hexagonal architecture, in Bundles Context 
