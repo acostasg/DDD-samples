@@ -14,9 +14,9 @@ composer install
 ```
 
 Urls:
-http://localhost/enAlquilerTecnicalTest/web/
-http://localhost/enAlquilerTecnicalTest/web/coffesshop
-http://localhost/enAlquilerTecnicalTest/web/placements
+* http://localhost/enAlquilerTecnicalTest/web/
+* http://localhost/enAlquilerTecnicalTest/web/coffesshop
+* http://localhost/enAlquilerTecnicalTest/web/placements
 
 #DDD
 
