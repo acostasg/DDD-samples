@@ -5,9 +5,7 @@
       <entry url="file://$PROJECT_DIR$">
         <entryData>
           <resourceRoots>
-            <path value="file://$PROJECT_DIR$/app/Resources" />
-            <path value="file://$PROJECT_DIR$/src/PlacementBundle/Resources" />
-            <path value="file://$PROJECT_DIR$/src/CoffeShopBundle/Resources" />
+            <path value="file://$PROJECT_DIR$/app" />
           </resourceRoots>
         </entryData>
       </entry>
