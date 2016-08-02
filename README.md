@@ -1,4 +1,4 @@
-# EnAlquiler Tecnical Test
+# DDD Samples Technical Test
 Write a web application using a language / framework of your choice. This web application
 should have the following URLs
 
